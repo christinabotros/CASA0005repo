@@ -155,7 +155,7 @@ The EPSG code for the WGS84 World Geodetic System (usually the default CRS for m
 
 ```{r, cache=FALSE, warning=FALSE, message=FALSE}
 Ausoutline <- Ausoutline %>%
-  st_set_crs(., 43260)
+  st_set_crs(., 4326)
 ```
 
 Or, more concisely...but remember this is only useful if there is no CRS when you load the data.
